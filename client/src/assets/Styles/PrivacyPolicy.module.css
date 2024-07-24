@@ -1,0 +1,52 @@
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.ppmain {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.pph2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.pph3 {
+  font-size: 1.5em;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.ppp {
+  line-height: 1.5;
+}
+
+.ppfooter {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.ppfooter p {
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .ppmain {
+    padding: 10px;
+  }
+
+  .pph2 {
+    font-size: 1.5em;
+  }
+
+  .pph3 {
+    font-size: 1.25em;
+    margin-top: 20px;
+  }
+}

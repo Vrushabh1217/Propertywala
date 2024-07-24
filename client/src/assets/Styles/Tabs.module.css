@@ -1,0 +1,28 @@
+.TabsContainer {
+  position: relative;
+  left: 3.5rem;
+  width: 28rem;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  font-size: large;
+}
+
+.tabsInput {
+  padding: 0.5rem;
+  width: 15rem;
+  margin-right: 0.5rem;
+  border: #b8b2f8 solid;
+  border-radius: 0.5rem;
+}
+
+.tabsButton {
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  background-color: #7164f0;
+  color: white;
+}
+
+.tabsSpan {
+  margin-right: 0.5rem;
+}

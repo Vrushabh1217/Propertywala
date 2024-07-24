@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Smooch&display=swap");
+
+.head {
+  background-image: url("../images/PW_map_background.png");
+  padding-left: 4rem;
+  font-size: 4rem;
+  margin: 0;
+  border: 0;
+  font-family: "Smooch", cursive;
+  color: #655ad8;
+  background-color: #e8e7f8;
+}
+
+.slogan {
+  font-size: 1.5rem;
+}

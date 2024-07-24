@@ -1,0 +1,150 @@
+.propertyDetailsAll {
+  padding: 2rem;
+}
+
+.pdHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pdHeader p {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #5648f6;
+}
+
+.pdHeader span {
+  font-size: large;
+  font-weight: 600;
+  color: rgb(178, 178, 241);
+}
+
+.dfButtons{
+  display: flex;
+  gap: 1rem;
+}
+
+.pdHeader button {
+  font-size: medium;
+  padding: 1.3rem 3rem;
+  border: #6454f1 solid;
+  border-radius: 0.5rem;
+  width: 10rem;
+  text-align: center;
+  cursor: pointer;
+  color: #7469f0;
+}
+
+.pdHeader button:hover{
+  background-color: #6454f1;
+  color: white;
+}
+
+
+.pdCarousel {
+  padding: 3rem;
+}
+
+.pdCarousel button{
+  background-color: #7469f0;
+  border-radius: 1rem;
+}
+
+.pdCarousel button:hover{
+  background-color: #5648f6;
+
+}
+
+
+.pdStats {
+  display: flex;
+  justify-content: space-evenly;
+  border: #a68bfe solid;
+  border-radius: 1rem;
+}
+
+
+.ownerParentContainer {
+  background-color: rgb(222, 222, 222);
+  padding: 1rem;
+}
+
+.ownerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ownerContainer button {
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  background-color: white;
+  border: none;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  color: #7469f0;
+  font-weight: bold;
+}
+
+.ownerContainer button:hover {
+  background-color: #7469f0;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ownerContainer .buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.ownerContainer img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.ownerContainer p,
+.ownerContainer h4 {
+  margin: 0.5rem;
+}
+
+.ownerContainer p {
+  color: rgb(86, 86, 86);
+}
+
+.display_none {
+  display: none;
+}
+
+.buttons {
+}
+
+.rentalFeatures {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rentalFeatures .childContainer {
+  width: 45%;
+}
+
+.rentalFeatures .rentalData {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.childContainer {
+}
+
+.rentalData {
+}
+
+.childContainer {
+}
+
+.terms {
+  color: gray;
+}

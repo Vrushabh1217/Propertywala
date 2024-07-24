@@ -1,0 +1,4 @@
+A new GET requires for /properties/all was received. It took 12.52 milliseconds to be resolved
+A new GET requires for /auth/verify was received. It took 10.72 milliseconds to be resolved
+A new GET requires for /csrf-token was received. It took 3.66 milliseconds to be resolved
+A new GET requires for /csrf-token was received. It took 2.70 milliseconds to be resolved

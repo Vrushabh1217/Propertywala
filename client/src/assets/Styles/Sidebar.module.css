@@ -1,0 +1,92 @@
+.sidebar {
+  background-color: #b8b2f8;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  position: fixed;
+  height: 100%;
+  padding: 1rem;
+}
+
+.miniSidebar {
+  background-color: #b8b2f8;
+  opacity: 0.9;
+  width: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  position: fixed;
+  height: 100%;
+  padding: 1rem;
+}
+
+.miniSidebar .sidebarButton {
+  width: 2rem;
+  padding: 0.5rem;
+}
+
+.sidebarButton {
+  text-align: center;
+  background-color: #f1eaff;
+  padding: 0.7rem;
+  width: 10rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: #655ad8;
+  font-weight: 600;
+  font-size: 0.8rem;
+  border: 0;
+}
+
+.sidebarLink :hover {
+  border-radius: 0.5rem;
+  scale: 1.07;
+  font-weight: 600;
+  transition: border-radius 0.15s ease-in-out;
+  transition: scale 0.15s ease-in-out;
+  transition: font-weight 0.15s ease-in-out;
+}
+
+.barsButton {
+  border: 0;
+  color: #655ad8;
+  background-color: #b8b2f8;
+  font-size: large;
+}
+
+.miniSidebar .barsButton {
+  border: 0;
+  color: #655ad8;
+  background-color: #b8b2f8;
+  font-size: large;
+}
+
+.hoverText {
+  position: absolute;
+  background-color: #b8b2f8;
+  color: white;
+  display: none;
+  border-radius: 0.5rem;
+}
+
+.hoverText button {
+  padding: 0.5rem;
+  background-color: white;
+  color: #655ad8;
+  font-weight: 600;
+  border: #b8b2f8 solid;
+  border-radius: 0.5rem;
+}
+
+.miniSidebar .sidebarLink:hover .hoverText {
+  display: block;
+}
+
+.sidebarContainer {
+  position: absolute;
+  top: 0;
+  z-index: 2000;
+}

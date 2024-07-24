@@ -1,0 +1,131 @@
+/* .navLinks {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.25rem;
+}
+
+.navLinks li {
+  opacity: 0.5;
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.navLinks .selected {
+  opacity: 1;
+  font-weight: bold;
+}
+
+.navLinks li:hover {
+  opacity: 1;
+}
+
+.navLinks li + li {
+  margin-left: 20px;
+}
+
+
+
+
+.aform input{
+  border: 0;
+  border-bottom: 2px solid #7164f0;
+  max-width: 20em;
+  padding: 0.5rem;
+  outline-color: transparent;
+}
+
+.aform button{
+  padding: 0.6rem;
+  color: white;
+  background-color: #7164f0;
+  border: 0;
+  border-radius: 5px;
+  max-width: 20em;
+  margin-left: 2rem;
+}
+
+.aform input[type=file]::file-selector-button{
+  background-color: #7164f0;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  padding: 0.3rem;
+}
+
+@media (max-width: 700px) {
+  main {
+    padding: 0.5rem;
+  }
+} */
+
+/* React css */
+
+.AdminControlall {
+  padding: 2rem;
+}
+
+.ACNavBar {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  list-style: none;
+}
+
+.ACNavBar p {
+  color: grey;
+  cursor: pointer;
+}
+
+.ACNavBar p:hover {
+  color: black;
+  scale: 1.1;
+}
+
+.AcContentContainer {
+  padding: 2rem 0rem;
+}
+
+.homeContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.homeContent p {
+  color: #bababa;
+}
+
+.aform {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.aform input {
+  border: 0;
+  border-bottom: 2px solid #7164f0;
+  max-width: 20em;
+  padding: 0.5rem;
+  outline-color: transparent;
+}
+
+.aform .abutton {
+  padding: 0.6rem;
+  color: white;
+  background-color: #7164f0;
+  border: 0;
+  border-radius: 5px;
+  max-width: 20em;
+  margin-left: 2rem;
+}
+
+.aform input[type="file"]::file-selector-button {
+  background-color: #7164f0;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  padding: 0.3rem;
+}

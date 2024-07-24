@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Smooch&display=swap");
+
+.NavAll {
+  display: flex;
+  margin-left: 3.5rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.NavAll img {
+  position: relative;
+  bottom: 0.4rem;
+  width: 5rem;
+  height: 3.5rem;
+}
+.logoLink {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  color: #655ad8;
+  font-weight: bolder;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.NavButtons {
+  margin-left: 58rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.NavAll button {
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  border-radius: 5px;
+  box-shadow: 0px 40px 80px 0px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+
+.navLogin {
+  background-color: #fbfbfe;
+  border: none;
+}
+
+.navLogin:hover {
+  background-color: #dddddd;
+}
+
+.navSignup {
+  background-color: #7164f0;
+  border: none;
+  color: #fff;
+}
+
+.navSignup:hover {
+  background-color: #6454f1;
+}
+
+.userProfile {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  text-decoration: none;
+  display: flex;
+  color: white;
+  background: linear-gradient(45deg, rgb(146, 146, 231), rgb(191, 0, 255));
+  border-radius: 50%;
+  width: 2.7rem;
+  height: 2.7rem;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+}
+
+.navUserName {
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}

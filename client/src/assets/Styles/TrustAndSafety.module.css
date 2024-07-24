@@ -1,0 +1,48 @@
+.tasbody {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.tasmain {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.tash1 {
+  font-size: 36px;
+  margin: 0 0 20px 0;
+}
+
+.tasp {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 10px 0;
+}
+
+.tasul {
+  margin: 0 0 20px 0;
+  padding: 0 0 0 20px;
+}
+
+.tasli {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.tasa {
+  color: #333;
+  text-decoration: none;
+}
+
+.tasfooter {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.tasfooter p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
